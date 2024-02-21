@@ -4,6 +4,8 @@ num.sort();
 let duplicates =[];
    for(let i = 1 ;num.length>i ;i++){
       if(num[i]===num[i-1]){
+        duplicates.push(num[i])
 
       }
    }
+console.log(duplicates);
